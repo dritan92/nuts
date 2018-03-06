@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Premier Australian Walnuts</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="/public/assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+</head>
+  <body>
+    <div id="root"></div>
+    <script src="/public/assets/js/jquery.min.js"></script>
+    <script src="/public/assets/js/skel.min.js"></script>
+    <script src="/public/assets/js/util.js"></script>
+    <script src="/public/assets/js/main.js"></script>
+    <script type = "text/javascript" src="/public/build/bundle.js"></script>
+  </body>
+</html>
