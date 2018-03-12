@@ -7,7 +7,7 @@ export default (props) => {
         {props.title}
       </h2>
       <span className="image main">
-        <img src={props.image} alt="" />
+        <img src = {props.image} alt="" />
       </span>
       <p>
         {props.body}

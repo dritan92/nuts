@@ -11,6 +11,7 @@ module.exports = {
   },
   devtool: '#source-map',
   module: {
+
     rules: [
       {
           exclude: /node_modules/,
@@ -18,9 +19,24 @@ module.exports = {
           query:
             {
               "presets": ['@babel/preset-env','@babel/preset-react']
-            }
-      }
-    ]
+            },
+      },
+
+      {
+        test: /\.css$/,
+        loader: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(jpg|png|gif|svg|pdf|ico)$/,
+        loader: 'file-loader',
+        options: {
+            name: '[path][name]-[hash:8].[ext]'
+        },
+      },
+
+    ],
   },
+
+  performance: { hints: false }
 
 }

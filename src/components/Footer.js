@@ -5,7 +5,8 @@ class Footer extends Component{
   render(){
     return(
       <footer id="footer">
-        <p className="copyright">&copy; Untitled. Design: <a href="http://premieraustralianwalnuts.com/"> Premier Australian Walnuts</a>.</p>
+        <p className="copyright">&copy;<a href="http://premieraustralianwalnuts.com/">australianwalnuts
+</a>.</p>
       </footer>
     )
   }
