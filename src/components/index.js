@@ -5,7 +5,6 @@ import Menu from './Menu'
 import Header from './Header'
 import Slideshow from './Slideshow'
 
-
 export {
   Footer,
   Article,

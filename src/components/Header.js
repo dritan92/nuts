@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Collapsible from 'react-collapsible';
+import '../styles/style.css';
 
 
 class Header extends Component {
@@ -19,7 +20,7 @@ class Header extends Component {
           <nav>
              <ul>
                <li><a href="#intro">Home</a></li>
-                <Collapsible trigger= "Walnuts" className="Collapsible" >
+                <Collapsible trigger= "Walnuts" classParentString = "collapsible">
                  <li><a href="#chandler-walnuts">Chandler Walnuts</a></li>
                  <li><a href="#cisco-walnuts">Cisco walnuts</a></li>
                </Collapsible>

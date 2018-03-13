@@ -22,13 +22,6 @@ class Main extends Component{
                           –  They taste better"/>
 
            <Article
-             id="work"
-             title="Work"
-             image="images/pic02.jpg"
-             body = "This is the work body"
-             description = "This is the work description and this is test"/>
-
-           <Article
              id="about"
              title="About"
              image = {require("../../dist/public/images/about.jpg")}
@@ -76,7 +69,8 @@ class Main extends Component{
                col3="Within fruit type very late"
                col4="Percentage High"
              />
-          
+           <Slideshow id = "review"
+                       title = "Reviews & more..." />
 
 
           <article id="contact">
