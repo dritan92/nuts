@@ -54,7 +54,7 @@ export default (props) => {
     						<p>{item.description.split('\n').map((item, key) => {
 										return <span key={key}>{item}<br/></span>
 									})}</p>
-								<button>{item.button}</button>
+								  <button>{item.button}</button>
     					</div>
     					<section>
     						<img src={item.userProfile} alt={item.user} />
